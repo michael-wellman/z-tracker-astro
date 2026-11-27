@@ -1,7 +1,12 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+const mods = await getCollection('mods');
 ---
 
 <BaseLayout title="Mike's Z Tracker">
-	<h1>Astro</h1>	
+		<!--Collection of Mods Data  -->
+		<ul>
+			{mods.map(mod => <li>{mod.data.name}</li>)}
+		</ul>
 </BaseLayout>

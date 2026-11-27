@@ -3,7 +3,6 @@
 ---
 
 <header>
-    <!-- <div class="bar"></div> -->
     <div class="container">
         <div class="leftColumn">
             <span>Z</span> Tracker<br>
@@ -21,14 +20,15 @@
 <style>
 
     header {
-    &::before {
+        text-transform: uppercase;
+        
+        &::before {
         content:"";
         background: var(--red);
         height: .4rem;
         display: block;
         margin-bottom: .4rem;
     }
-    text-transform: uppercase;
 
     .container {
         display: flex;
@@ -36,6 +36,7 @@
         align-items: center;
         max-width: 1400px;
         margin: 0 auto;
+        padding-inline: 1.5rem;
 
         .leftColumn {
             font: var(--font-display);
@@ -58,11 +59,6 @@
         }
     }
 
-    .bar {
-        height: 4px;
-        background: var(--red);
-    }
-    
     .mod-tag {
         font: var(--font-mono);
         font-size: 0.72rem;
