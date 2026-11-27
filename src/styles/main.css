@@ -1,0 +1,88 @@
+:root {
+  /* Backgrounds */
+  --ground: #0b0c0d;
+  --surface: #18191c;
+  --surface-raised: #212226;
+
+  /* Borders */
+  --line: #2c2d31;
+  --line-soft: #232427;
+
+  /* Text */
+  --ink: #ecedf0;
+  --ink-dim: #8d9096;
+  --ink-faint: #5d6066;
+
+  /* Accent */
+  --red: #e2231a;
+  --red-hover: #c91f17;
+  --red-dim: #5c130f;
+
+  /* Status */
+  --green: #5fa876;
+  --green-dim: #223126;
+  --amber: #d7a44a;
+  --amber-dim: #332a18;
+  --slate: #767b84;
+  --slate-dim: #232428;
+
+  /* Fonts */
+  --font-display: 800 1em/1.05 -apple-system, "SF Pro Display", "Segoe UI", system-ui, sans-serif;
+  --font-body: 400 1em/1.55 -apple-system, "SF Pro Text", "Segoe UI", system-ui, sans-serif;
+  --font-mono: 500 1em/1 ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono", Menlo, Consolas, monospace;
+}
+
+body {
+  background: var(--ground);
+  color: var(--ink);
+  font: var(--font-body);
+  margin: 0;
+}
+
+header {
+    text-transform: uppercase;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .leftColumn {
+            font: var(--font-display);
+            font-size: clamp(1.9rem, 4vw, 2.6rem);
+            letter-spacing 0.02em;
+            text-wrap: balance;
+            color: var(--ink);
+            
+            span {
+                color: var(--red)
+            }
+
+            .subtitle {
+                font: var(--font-body);
+                font-size: 0.8rem;
+                letter-spacing: 0.14em;
+                color: var(--ink-dim);
+                margin-top: 4px;
+            }
+        }
+    }
+
+    .bar {
+        height: 4px;
+        background: var(--red);
+    }
+    
+    .mod-tag {
+        font: var(--font-mono);
+        font-size: 0.72rem;
+        letter-spacing: 0.08em;
+        color: var(--ink-faint);
+        border: solid 1px var(--ink-faint);
+        padding: 5px 10px;
+        border-radius: 3px;
+        white-space: no-wrap;
+    }
+}
+
+

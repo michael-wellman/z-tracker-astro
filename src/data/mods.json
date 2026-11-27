@@ -1,0 +1,16 @@
+[
+  { "id": 1,  "name": "FI Full Exhaust",               "category": "exhaust",    "budgeted": 1500,  "actual": 1500, "year": 2021, "status": "installed" },
+  { "id": 2,  "name": "HFC",                           "category": "exhaust",    "budgeted": 700,   "actual": 700,  "year": 2021, "status": "installed" },
+  { "id": 3,  "name": "Z1 Intakes",                    "category": "intake",     "budgeted": 450,   "actual": 450,  "year": 2021, "status": "installed" },
+  { "id": 4,  "name": "Tune + HFC Install (JOTECH)",   "category": "tune",       "budgeted": 1250,  "actual": 1250, "year": 2021, "status": "installed" },
+  { "id": 5,  "name": "Oil Cooler",                    "category": "engine",     "budgeted": 560,   "actual": null, "year": null, "status": "wishlist" },
+  { "id": 6,  "name": "Fortune Auto w/ Swift Springs", "category": "suspension", "budgeted": 2300,  "actual": 2160, "year": 2025, "status": "installed" },
+  { "id": 7,  "name": "SPL Endlinks",                  "category": "suspension", "budgeted": 1900,  "actual": 1920, "year": 2025, "status": "installed" },
+  { "id": 8,  "name": "Forced Induction",              "category": "engine",     "budgeted": 15000, "actual": null, "year": null, "status": "wishlist" },
+  { "id": 9,  "name": "RJR Pedal",                     "category": "cosmetic",   "budgeted": 300,   "actual": null, "year": null, "status": "wishlist" },
+  { "id": 10, "name": "Wheels",                        "category": "wheels",     "budgeted": 4300,  "actual": 4378, "year": 2025, "status": "installed" },
+  { "id": 11, "name": "Raceseng Shifter",              "category": "cosmetic",   "budgeted": 170,   "actual": 170,  "year": 2021, "status": "installed" },
+  { "id": 12, "name": "2 Piece Rotors",                "category": "suspension", "budgeted": 1700,  "actual": 1300, "year": 2024, "status": "installed" },
+  { "id": 13, "name": "Carbon Fiber Steering Wheel",   "category": "cosmetic",   "budgeted": 460,   "actual": 370,  "year": 2024, "status": "installed" },
+  { "id": 14, "name": "Brake Pads and Lines",          "category": "suspension", "budgeted": 350,   "actual": 350,  "year": 2025, "status": "installed" }
+]
